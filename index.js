@@ -10,3 +10,15 @@ function multiply(x,y) {
 function divide(x,y) {
   return x/y
 }
+
+var n = 0
+
+function inc(n) {
+  n+= 1
+  return n
+}
+
+function dec(n) {
+  n-= 1
+  return n
+}
