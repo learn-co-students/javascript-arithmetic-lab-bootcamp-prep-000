@@ -22,12 +22,6 @@ function dec(n){
   return (n - 1); //why can't i use --?
 }
 
-//function makeInt(a){
-  //parseInt('a');
-  //return a;
-  //parseInt('a', 10)
-  //return a;
-//}
 function makeInt(n){
   return parseInt(n, 10)
 }
