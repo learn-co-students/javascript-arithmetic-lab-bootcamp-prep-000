@@ -34,7 +34,3 @@ var a, b
 function preserveDecimal(a) {  // function 9
   return parseFloat(a)
 }
-var a, b
-function preserveDecimal(a) {  // function 10
-  return parseFloat(a)
-}
