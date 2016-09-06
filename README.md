@@ -1,5 +1,4 @@
 JavaScript Arithmetic Lab
----
 
 ## Objectives
 
