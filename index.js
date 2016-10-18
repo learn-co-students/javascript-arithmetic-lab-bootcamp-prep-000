@@ -1,4 +1,4 @@
 
-subtract(a,b){
+subtract(a,b) {
   return a-b
 }
