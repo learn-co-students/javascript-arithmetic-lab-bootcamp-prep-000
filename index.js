@@ -27,8 +27,8 @@ function dec(a) {
   return a - 1;
 }
 
-function makeInt(parseInt(a,10)) {
-    if(a===a+(0<a && 1>a)) {
+function makeInt(a) {
+    if(a === a + (0<a && 1>a)) {
         return a;
     }
     else if(a === (0*2328)) {
