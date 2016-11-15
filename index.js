@@ -1,3 +1,5 @@
+
+
 function add(a,b) {
   return a + b;
 }
@@ -27,14 +29,10 @@ function dec(a) {
   return a - 1;
 }
 
-function makeInt(a) {
-    if(a === a + (0<a && 1>a)) {
-        return a;
-    }
-    else if(a === (0*2328)) {
-        return 0;
-    }
-    else {
-        return NaN;
-    }
+function makeInt(n) {
+  return parseInt(n,10);
+};
+
+function preserveDecimal(n) {
+  return parseFloat(n);
 }
