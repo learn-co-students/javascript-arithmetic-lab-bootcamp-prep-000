@@ -30,6 +30,10 @@ function makeInt(a){
   return ('nonsense!', a)
 }
 
-function parse(a) {
-  return ('0x2328',0)
-  }
+function makeInt(a) {
+  return parseInt(a, 10)
+
+}
+function preserveDecimal(a){
+  return parseFloat(a)
+}
