@@ -3,19 +3,23 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  2 - 1
+  return a - b
 }
 
-/*
-function multiply()
+function multiply(a, b) {
+  return a * b
+}
 
-function divide()
+function divide(a, b) {
+  return a / b
+}
 
-function inc(n)
+function inc(n) {
+  return n +=
+}
 
 function dec(n)
 
 function makeInt(n)
 
 function perserveDecimal(n)
-*/
