@@ -1,6 +1,5 @@
 function add(a, b) {
-  1 + 2
-  return 
+ return a + b
 }
 
 function subtract(a, b) {
