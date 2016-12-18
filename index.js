@@ -1,14 +1,31 @@
-add(1,2)
-subtract(6,3)
-multiple(2,3)
-divide(6,2)
+function add(a, b) {
+  return a + b
+}
 
-var = 10
-inc(number)
-dec(number)
-function makeInt()
-  parseInt('2',10)
+function subtract(a, b) {
+  return a - b
+}
 
-function preserveDecimal()
-  parseFloat('2.222',10)
-  
+function multiply(a, b) {
+  return a * b
+}
+
+function divide(a, b) {
+  return a / b
+}
+
+function inc(n) {
+  return n += 1
+}
+
+function dec(n) {
+  return n -= 1
+}
+
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
