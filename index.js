@@ -22,14 +22,10 @@ function dec(n) {
   return n - 1
 }
 
-function makeInt('n') {
-  return parseFloat ('n')
+function makeInt(n) {
+  return parseInt (n, 10)
 }
 
-function makeInt('n', n) {
-  return parseInt ('n', 10)
-}
-
-function makeInt ('n') {
-  return
+function preserveDecimal (n) {
+  return parseFloat (n)
 }
