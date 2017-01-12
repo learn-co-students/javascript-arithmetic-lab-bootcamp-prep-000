@@ -19,12 +19,9 @@ var decrement = n-=1
 return decrement
 }
 function makeInt(n){
-var theInterger = parseInt(n,10)
-return theInterger
+return parseInt(n,10)
 }
 
 function preserveDecimal(n){
-var theFloater = parseFloat(n)
-return theFloater
-
+ return parseFloat(n)
 }
