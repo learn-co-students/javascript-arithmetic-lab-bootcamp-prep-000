@@ -2,7 +2,8 @@ function add(a,b){
   return a+b;
 }
 function subtract(a,b){
-  return a-b;
+  a= a-b;
+  return a;
 }
 function multiply(a,b){
   return a*b;
