@@ -25,7 +25,7 @@ function dec(int) {
 function makeInt(int) {
   var isInt = parseInt(int, 10);
 
-  if (int === '0x2328') {
+  if (isInt === 0) {
     return 0;
   }
 
