@@ -23,22 +23,23 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  parseInt('476', 10);
-
+  parseInt(n, 10);
+  return n;
 }
-function makeInt(n) {
-  parseInt('2', 10);
-  return 2;
-
-}
-
-function makeInt(n) {
-  parseInt('0*3333');
+function makeInt(0*2328) {
+  parseInt(n,10);
   return 0;
-
 }
+
+function makeInt(n) {
+  parseInt('nonsense',10);
+  return n;
+}
+
+
 
 
 function preserveDecimal(n){
-  parseFolat('2.222');
+  parseFloat(n);
+  return n;
   }
