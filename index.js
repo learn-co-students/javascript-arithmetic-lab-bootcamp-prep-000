@@ -23,12 +23,8 @@ function dec(a) {
 }
 
 function makeInt(a) {
-if parseInt(a) === 0x2328 {
-  return 0
-}
-else {
-  return  parseInt(a);
-}
+  return  parseInt(a, 10);
+
 }
 
 function preserveDecimal(a) {
