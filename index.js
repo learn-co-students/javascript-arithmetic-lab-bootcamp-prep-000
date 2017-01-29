@@ -21,3 +21,11 @@ function inc(n) {
 function dec(n) {
   return n - 1
 }
+
+function makeInt(0x2328,10) {
+  return NaN
+}
+
+function preserveDecimal(2.222,sldkjflksjf) {
+  return NaN
+}
