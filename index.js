@@ -22,10 +22,10 @@ function dec(n) {
   return n - 1
 }
 
-function makeInt(0x2328,10) {
-  return NaN
+function makeInt(n) {
+  parseInt(0x2328,10)
 }
 
-function preserveDecimal(2.222,sldkjflksjf) {
-  return NaN
+function preserveDecimal(n) {
+  parseFloat('2.222')
 }
