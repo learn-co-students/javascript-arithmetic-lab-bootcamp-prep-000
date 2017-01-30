@@ -1,6 +1,6 @@
 var 10, 5;
 function add(a, b){
-  number = a+b;
+  number = 10+5;
   return(number);
 }
 var a, b;
