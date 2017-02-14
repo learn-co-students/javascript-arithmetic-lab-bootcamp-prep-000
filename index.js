@@ -36,8 +36,8 @@ function dec(a) {
 
 dec(3)
 
-function makeInt() {
-  return parseInt('3', 10)
+function makeInt(a) {
+  return 
 }
 
-makeInt()
+makeInt(3)
