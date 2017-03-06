@@ -12,6 +12,7 @@ before(function(done) {
 
   //const src = path.resolve(__dirname, '..', 'index.js');
 
+
   jsdom.env('<div></div>', [], {src: babelResult.code}, (err, window) => {
     if (err) {
       return done(err);
@@ -23,4 +24,4 @@ before(function(done) {
 
     return done();
   });
-}); 
+});
