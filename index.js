@@ -37,7 +37,15 @@ function dec(a) {
 dec(3)
 
 function makeInt(a) {
-  return 
+  return parseInt(a, 10)
 }
 
 makeInt(3)
+
+makeInt(0x2328)
+
+function preserveDecimal(a) {
+  return parseFloat(a)
+}
+
+preserveDecimal(3.25)
