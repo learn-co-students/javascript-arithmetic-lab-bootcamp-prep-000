@@ -23,19 +23,9 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if parseInt(n, 10) {
-    return parseInt(n, 10)
-  }
+  return parseInt(n, 10)
 }
 
-function makeInt() {
-  return parseInt('nonsense', 10)
-}
-
-function preserveDecimal() {
-  return parseFloat('2.222', 10) 
-}
-
-function preserveDecimal() {
-  return parseFloat('nonsense', 10)
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
