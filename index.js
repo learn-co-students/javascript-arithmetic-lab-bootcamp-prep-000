@@ -15,13 +15,19 @@ return (a/b)
 }
 
 function inc(number){
-return (number ++=)
+return (++number )
 }
 
 function dec(number){
-return (number --=)
+return (--number )
 }
 
-function makeInt(n){
-return (parseInt(n,10))
+function makeInt(number,string){
+return parseInt(number,10)
+parseInt(string)
+}
+
+function preserveDecimal(n,string){
+return parseFloat(n)
+  return parseFloat(string)
 }
