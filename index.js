@@ -22,12 +22,10 @@ function dec(number){
 return (--number )
 }
 
-function makeInt(number,string){
+function makeInt(number){
 return parseInt(number,10)
-parseInt(string)
 }
 
-function preserveDecimal(n,string){
+function preserveDecimal(n){
 return parseFloat(n)
-  return parseFloat(string)
 }
