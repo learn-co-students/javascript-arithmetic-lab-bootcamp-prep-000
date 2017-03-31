@@ -30,25 +30,25 @@ dec();
 
 /* parses n as an integer and returns the parsed integer */
 function makeInt(n) {
-  parseInt('n');
+  n = parseInt(n, 10);
   return n;
 }
 makeInt();
 
 /* CAN’T GET THIS ONE RIGHT */
 /* assumes base 10 */
-function makeInt(n) {
-  parseInt(n);
-  return n;
-}
-makeInt();
-
-/* returns NaN as appropriate */
-function makeInt(n) {
-  parseInt('sldkjflksjf', 10);
-  return n;
-}
-makeInt();
+// function makeInt(n) {
+//   n = parseInt(n);
+//   return n;
+// }
+// makeInt();
+//
+// /* returns NaN as appropriate */
+// function makeInt(n) {
+//   parseInt('sldkjflksjf', 10);
+//   return n;
+// }
+// makeInt();
 
 /* preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number */
 function preserveDecimal(n) {
