@@ -5,7 +5,7 @@ JavaScript Arithmetic Lab
 
 1. Practice doing math with JavaScript
 2. Practice writing functions that do things with numbers
-3. Practice parsing strings as numbers
+
 
 ## Introduction
 
