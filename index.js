@@ -25,16 +25,10 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  parseInt ('n', 10)
-  return number(n) : return NaN
+  return parseInt (n, 10)
 }
 
 function preserveDecimal(n) {
-  parseFLoat(n)
-  return parseInt('n')
-}
-
-function preserveDecimal(n) {
-  parseInt ('nonesense!', 10)
-  return (n)
+  parseFloat('n')
+  return (n) ; return Nan
 }
