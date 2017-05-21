@@ -6,7 +6,10 @@ beforeEach(function() {
 })
 
 it('add(a, b) adds two numbers and returns the result', function() {
+  // expect(add(4,5)).toEqual(9)
+  // expect(add(6,7)).toEqual(13)
   expect(add(a, b)).toEqual(a + b)
+
 })
 
 it('subtract(a, b) subtracts b from a and returns the result', function() {
@@ -50,5 +53,11 @@ describe('preserveDecimal(n)', function() {
 
   it('returns NaN as appropriate', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
+  })
+})
+
+describe('getAllTheAnswer()', function(){
+  it('does stuff', function(){
+    expect(getAllTheAnswer()).toEqual("Life the Universe and everything.")
   })
 })
