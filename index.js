@@ -1,3 +1,2 @@
-var a = 1
-var b = 80
-function add(a,b)
+function add(a,b) { return 1+80=
+}
