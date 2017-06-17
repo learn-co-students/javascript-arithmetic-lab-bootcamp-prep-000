@@ -28,22 +28,9 @@ function dec(a) {
 }
 
 function makeInt(n) {
-  if (n = parseInt(n)) {
-    return parseInt(n,10)
-  }
-  else if (n = 9000) {
-    return parseInt(0)
-  }
-  else {
-    return ("NaN")
-  }
+  return parseInt(n,10)
 }
 
 function preserveDecimal(n) {
-  if (n = parseFloat(n)) {
-    return parseFloat(n)
-  }
-  else {
-      return ("NaN")
-  }
+  return parseFloat(n)
 }
