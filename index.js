@@ -29,10 +29,7 @@ function dec(a) {
 
 function makeInt(n) {
   if (n = parseInt(n,10)){
-    return parseInt(n,10)
-  }
-  else if (n = parseInt(n,10)) {
-    return parseInt(0)
+    return parseInt(n)
   }
   else {
     return ("NaN")
