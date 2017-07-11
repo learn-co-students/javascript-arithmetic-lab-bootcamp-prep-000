@@ -16,3 +16,12 @@ function makeInt(n) {
 function preserveDecimal (n) {
   return parseFloat(n)
 }
+function multiply(a,b) {
+  return a * b
+}
+function divide(a,b) {
+  return a/b
+}
+function dec(n) {
+return  n -= 1
+}
