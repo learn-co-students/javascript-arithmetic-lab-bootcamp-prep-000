@@ -9,14 +9,14 @@ var b = Math.floor(Math.random() * 1000)
           return a-b
       }
       function multiply(a,b) {
-         return a *= b
+         return a * b
       }
       function divide(a, b) {
-          return a/=b
+          return a/b
       }
 
 
-  add(a, b)
+  add()
   subtract(a, b)
   multiply(a, b)
   divide(a, b)
@@ -32,18 +32,14 @@ var b = Math.floor(Math.random() * 1000)
 
     }
 
-    inc(a)
-    dec(b)
-
   function makeInt(n) {
      return parseInt(n, 10)
   }
 
 makeInt()
 
-  function preserveDecimal(a) {
-    return parseFloat(a)
+  function preserveDecimal(n) {
+    return parseFloat(n)
   }
 
-preserveDecimal(58.33333)
-preserveDecimal("wiggles")
+preserveDecimal()
