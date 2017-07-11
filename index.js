@@ -1,47 +1,32 @@
-var n = 2.222
-
-var a = 1
-
-var b = 2
-
-
 
 function add(a, b) {
-  a += b;
-  console.log();
+  return a + b
 }
 
 function subtract(a, b) {
-  a -= b;
-  console.log();
+  return a - b
 }
 
 function multiply(a, b) {
-  a *= b;
-  console.log();
+  return a * b
 }
 
 function divide(a, b) {
-  a /= b;
-  console.log();
+  return a / b
 }
 
 function inc(n) {
-  n ++;
-  return n;
+  return n += 1
 }
 
 function dec(n) {
-  n --;
-  return n;
+  return n -= 1
 }
 
 function makeInt(n) {
-  parseInt(n, 10);
-  console.log(n);
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
-  parseFloat('n');
-  console.log('n');
+  return parseFloat(n)
 }
