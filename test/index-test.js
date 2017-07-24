@@ -31,6 +31,7 @@ it('dec(n) decrements n and returns the result', function() {
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
+    var a = 20;
     expect(makeInt(a.toString())).toEqual(a)
   })
 
