@@ -17,11 +17,10 @@ function dec(a) {
   return(a - 1)
 }
 
-function makeInt(a) {
-  parseInt(a, 10)
-  return(a)
+function makeInt(n) {
+  return parseInt(n , 10)
 }
 
-function makeInt(a) {
-  parseInt(0*2328, 10)
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
