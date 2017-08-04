@@ -23,16 +23,9 @@ function dec(n) {
 }
 
 function makeInt(n){
-  return parseInt('796',10)
-}
-/*function makeInt(n) {
-  return makeInt(a === a)
+  return parseInt(n,10)
 }
 
 function preserveDecimal(n) {
-  return parseInt('2.222', 10)
-}*/
-
-function preserveDecimal(n) {
-  return parseFloat('sldkjflksjf')
+  return parseFloat(n)
 }
