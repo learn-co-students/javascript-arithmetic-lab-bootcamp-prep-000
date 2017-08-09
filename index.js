@@ -1,8 +1,24 @@
-var number = 10
-function add5() {
-  number += 5
+function add(a, b) {
+  return a + b
 }
-function divideBy3() {
-  number /= 3
+function subtract(a,b) {
+  return a - b
 }
-parseInt('2', 10)
+function multiply(a,b) {
+  return a * b
+}
+function divide(a,b) {
+  return a / b
+}
+function inc(n) {
+  return n += 1
+}
+function dec(n) {
+  return n -= 1
+}
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
