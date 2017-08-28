@@ -18,13 +18,10 @@ function dec(n){
   n = n-1
   return n
 }
-function makeInt(n){
-  return parseInt(n)
-  return parseInt(10)
-  return parseInt('notanumber')
-
+function makeInt(n) {
+  return parseInt(n, 10)
 }
 
-function preserveDecimal(n){
+function preserveDecimal(n) {
   return parseFloat(n)
 }
