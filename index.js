@@ -1,5 +1,33 @@
-number = 5
+function add(a, b) {
+  return a + b
+}
 
-number += 3
+function subtract(a,b) {
+  return a - b
+}
 
-return number
+function multiply(a,b) {
+  return a*b
+}
+
+function divide(a,b) {
+  return a/b
+}
+
+function inc(n) {
+  n++
+  return n
+}
+
+function dec(n) {
+  n--
+  return n
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
+
+function makeInt(n) {
+  return parseInt(n, 10)
+}
