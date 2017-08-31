@@ -20,13 +20,12 @@ var number=a
 return --number
 }
 function makeInt(a){
-return parseInt('a')
+return parseInt(a)
 }
 
-function preserveDecimal(a){
-  return parseFloat ('a')
+function makeInt(n){
+  return parseInt (n, 10)
 }
 
-function preserveDecimal(a){
-  return parseFloat('nonesense')
-}
+function preserveDecimal(n){
+  return parseFloat(n) }
