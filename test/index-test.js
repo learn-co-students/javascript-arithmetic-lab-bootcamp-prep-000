@@ -52,3 +52,6 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+
+console.log (a);
+console.log (b);
