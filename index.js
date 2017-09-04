@@ -15,6 +15,18 @@ function multiply("number1"* "number2") {
 return `${numbers}, ${number}`
 }
 
+//parseInt, you write
+/*function makeInt(parameter)
+{
+parseInt(2.333, 10)
+}
+
+//parseFloat, you write
+function preserveDecimal(n)
+    {
+    parsefloat(2.333,10)
+  }
+  */
 
 makeInt('2.33', 10)
 
