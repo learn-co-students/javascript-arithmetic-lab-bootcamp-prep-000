@@ -23,7 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  n.toString(10).toEqual(n)
+  n.toString().toEqual(10)
   return n
 }
 
