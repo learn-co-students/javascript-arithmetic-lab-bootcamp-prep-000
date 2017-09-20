@@ -3,7 +3,7 @@ function add(a,b){
 }
 
 function subtract(a,b){
-  return b - a;
+  return a - b;
 }
 
 function multiply(a,b){
@@ -14,16 +14,16 @@ function divide(a,b){
   return a / b;
 }
 
-function inc(n)(){
+function inc(n){
   return n += 1;
 }
 
-function dec(n)(){
+function dec(n){
   return n -= 1;
 }
 
-function makeInt(string,10){
-  return parseInt(string);
+function makeInt(string){
+  return parseInt(string,10);
 }
 
 function preserveDecimal(string){
