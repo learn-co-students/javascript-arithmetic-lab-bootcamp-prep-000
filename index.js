@@ -15,13 +15,11 @@ function divide(a, b){
 }
 
 function inc(n) {
-  n++;
-  return n;
+  return n+=1;
 }
 
 function dec(n) {
-  n--;
-  return n;
+  return n-=1;
 }
 
 function makeInt(n) {
@@ -29,5 +27,5 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  return parseFloat(n);
+  return parseFloat(n,10);
 }
