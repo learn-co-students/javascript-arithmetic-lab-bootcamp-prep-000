@@ -14,16 +14,21 @@ function divide(a, b) {
   return a / b;
 }
 
-var number= 280
-
 function inc(n) {
-  number += 1
+  return n += 1
 }
 
 function dec(n) {
-
+  return n -= 1
 }
 
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
 
 
 add(1, 80)
