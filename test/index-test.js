@@ -50,9 +50,7 @@ describe('makeInt(n)', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
   function makeInt(n) {
-    var n = 5 {
     return parseInt(a,10)
-  }
 }
   it('assumes base 10', function() {
     expect(makeInt('0x2328')).toEqual(0)
