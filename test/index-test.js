@@ -56,7 +56,7 @@ describe('makeInt(n)', function() {
     expect(makeInt('0x2328')).toEqual(0)
   })
   function makeInt(n) {
-    return parseInt(0*2328, 10)
+    return parseInt('0*2328', 10)
   }
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
