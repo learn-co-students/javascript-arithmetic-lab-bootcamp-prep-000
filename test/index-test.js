@@ -62,7 +62,7 @@ describe('makeInt(n)', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
   function makeInt(n) {
-    return parseInt('sldkjflksjf', 10)
+    return parseInt('sldkjflksjf', 100)
   }
 })
 
