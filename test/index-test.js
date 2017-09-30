@@ -71,9 +71,12 @@ describe('preserveDecimal(n)', function() {
     expect(preserveDecimal('2.222')).toBe(2.222)
   })
   function preserveDecimal(n) {
-    return parseFloat ('2.222');  parseFloat('sldkjflksjf')
+    return parseFloat ('2.222');  
   }
     it('returns NaN as appropriate', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
+  function preserveDecimal(n) {
+    return parseFloat('sldkjflksjf')
+  }
 })
