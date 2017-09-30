@@ -61,6 +61,9 @@ describe('makeInt(n)', function() {
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
+  function makeInt(n) {
+    return parseInt(sldkjflksjf, 10)
+  }
 })
 
 describe('preserveDecimal(n)', function() {
