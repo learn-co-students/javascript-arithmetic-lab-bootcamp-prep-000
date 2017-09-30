@@ -23,16 +23,9 @@ function dec(a) {
   return (a-=1)
 }
 
-function makeInt(n) {
-  return parseInt(a.toString(),10)
-}
 
 function makeInt(n) {
-  return parseInt(0*2328, 10)
-}
-
-function makeInt(n) {
-  return parseInt('sldkjflksjf', 10)
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
