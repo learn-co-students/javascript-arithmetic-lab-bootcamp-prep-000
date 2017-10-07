@@ -22,7 +22,7 @@ function inc(n) {
 function dec(n) {
   n--
   return n
-}
+} //n++ would not return the incremented number - it would return the original value of n, but it would indeed change the value of n//
 
 function makeInt(n) {
   return parseInt(n, 10)
