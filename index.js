@@ -23,19 +23,13 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt(n)
+  return n
+  return n, 10
+  return n, "blah"
 }
 
-function makeInt(n) {
-  return parseInt(n, 10)
-}
-
-function makeInt(n) {
-  return parseInt(n,"blah")
-}
-
-function preserveDecimal(n).parsefloat(n) {
-  return parseInt(n)
+function preserveDecimal(n) {
+  return parsefloat(n)+parseInt(n)
 }
 
 function preserveDecimal(n) {
