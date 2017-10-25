@@ -1,39 +1,33 @@
-
 function add(a, b) {
-  return  a + b
+  return a + b;
 }
 
 function subtract(a, b) {
-  return a - b
+  return a - b;
 }
 
 function multiply(a, b) {
-  return a * b
+  return a * b;
 }
 
 function divide(a, b) {
-  return a / b
+  return a / b;
 }
 
 function inc(n) {
-  return n += 1
+   n++;
+   return n;
 }
 
 function dec(n) {
-  return n -= 1
+  n--;
+  return n;
 }
 
 function makeInt(n) {
-  if(parseInt(n,10) === parseInt(n,10)){
-    return parseInt(n, 10)
-} else {
-    return "NaN"}
+  return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
-  if(parseFloat(n) === parseFloat(n)){
-    return parseFloat(n)
-  } else {
-    return "NaN"
-  }
+  return parseFloat(n);
 }
