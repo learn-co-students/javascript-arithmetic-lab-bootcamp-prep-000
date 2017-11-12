@@ -27,17 +27,17 @@ function divide(a, b) {
 }
 
 // test 5 - incremental addition
-function inc(a) {
-  var a;
-  a++;
-  return a;
+function inc(n) {
+  var n;
+  n++;
+  return n;
 }
 
 // test 6 - incremental subtraction
-function dec(a) {
-  var a;
-  a--;
-  return a;
+function dec(n) {
+  var n;
+  n--;
+  return n;
 }
 
 // test 7-9 - makeInt
@@ -47,6 +47,5 @@ function makeInt(n) {
 
 // test 10-11 - preserveDecimal
 function preserveDecimal(n) {
-  parseFloat(n);
-  return;
+  return parseFloat(n);
 }
