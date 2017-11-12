@@ -41,14 +41,12 @@ function dec(a) {
 }
 
 // test 7-9 - makeInt
-function makeInt(a) {
-  var a;
-  parseInt(2, 10);
-  return a;
+function makeInt(n) {
+  return parseInt(n, 10);
 }
 
 // test 10-11 - preserveDecimal
-function preserveDecimal() {
-  parseFloat('2.222');
+function preserveDecimal(n) {
+  parseFloat(n);
   return;
 }
