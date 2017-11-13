@@ -158,7 +158,33 @@ parseFloat('80.123999') // 80.123999
 ```
 
 You're now ready to solve the final two tests in this lab, `makeInt(n)` and `preserveDecimal(n)`.
+function add(a, b){
+  return a + b
+}
 
+function subtract(a, b){
+  return a - b
+}
+
+function multiply(a, b){
+  return a * b
+}
+
+function divide(a, b){
+  return a / b
+}
+
+function inc(n){
+  return n++
+}
+
+function decrements(n){
+  return n--
+}
+
+function makeInt(n){
+  return parseInt(n)
+}
 
 ## Resources
 - * [MDN - parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
