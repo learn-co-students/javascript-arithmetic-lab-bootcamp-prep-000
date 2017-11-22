@@ -34,7 +34,8 @@ describe('makeInt(n)', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
 
-  it('assumes base 10', function() {
+  it('assumes base 10', function()
+  {
     expect(makeInt('0x2328')).toEqual(0)
   })
 
