@@ -32,10 +32,16 @@ function dec(n) {
 dec(a)
 
 function makeInt(n) {
-  return parseInt('n', 10)
+  return (parseInt(n, 10))
 
 }
 
 makeInt(a)
 
 makeInt(sldkjflksjf)
+
+function preserveDecimal(n) {
+  return (parseFloat(n))
+}
+
+preserveDecimal(2.222)
