@@ -30,16 +30,7 @@ function dec(a){
 }
 
 function makeInt(n){
-  if(parseInt(n,10) === n)
-  {
-  return n}
-  
-  else if(parseInt(n,10)===0)
-  {
-    return 0
-  }
-  
-  else return parseInt(n,10)
+   return parseInt(n,10)
 }
 
 
