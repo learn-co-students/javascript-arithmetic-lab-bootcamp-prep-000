@@ -29,20 +29,20 @@ function dec(a){
   return a
 }
 
-function makeInt(a){
-  if(parseInt(a,10) === a)
+function makeInt(n){
+  if(parseInt(n,10) === n)
   {
-  return a}
+  return n}
   
-  else if(parseInt(a,10)===0)
+  else if(parseInt(n,10)===0)
   {
     return 0
   }
   
-  else return parseInt(a,10)
+  else return parseInt(n,10)
 }
 
 
-function preserveDecimal(a){
-  return parseFloat(a)
+function preserveDecimal(n){
+  return parseFloat(n)
 }
