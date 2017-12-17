@@ -140,7 +140,7 @@ If we enter the above in console, we'll see that `parseInt()` forces the parsed 
 What happens, though, if we pass utter nonsense to `parseInt()`? Go ahead and try it in the console — something like
 
 ``` javascript
-parseInt('nonsense!', 10)
+present('nonsense!', 10)
 ```
 
 What did it return? `NaN`? What is that?
