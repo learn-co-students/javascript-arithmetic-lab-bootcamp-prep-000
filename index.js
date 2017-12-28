@@ -17,12 +17,55 @@ function dec(n) {
   return (n - 1)
 }
 function makeInt(n) {
-  return (parseInt)
-  console.log ("tostring = n")
+  return parseInt(n, 10)
 }
-function makeInt(10) {
-  console.log ("0 * 2328 = 0")
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
