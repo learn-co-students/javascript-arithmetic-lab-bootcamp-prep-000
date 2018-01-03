@@ -17,5 +17,9 @@ function inc(a){
 function dec(a){
   return (--a);
 }
-parseInt("a");
-return (a);
+function makeInt(n){
+  return parseInt(n,10)
+}
+function preserveDecimal(a){
+  return parseFloat(a,10)
+}
