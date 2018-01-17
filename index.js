@@ -38,14 +38,15 @@ function dec(a){
   return (a - 1)
 }
 
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
+//parses n as an integer and returns the parsed integer
+function makeInt(a.toString()){
+  return (a)
+  }
 
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
-  })
+//assumes base 10
+function makeInt('0x2328'){
+  return (0)
+  }
 
   it('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
