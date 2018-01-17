@@ -46,9 +46,18 @@ function makeInt(a, base){
 }
 
 //assumes base 10
-function makeInt(x, base) {
-  var parsed = parseInt(x, base);
-  if (isNaN(parsed)) { return 0x2328 }
+function makeInt(a, base) {
+  var parsed = parseInt(a, 10);
+  if (isNaN(parsed)) { return 0 }
   return parsed;
   }
 
+function preserveDecimal(n) {
+  // preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number
+  var parsed = parseFloat(n);
+  return parseFloat(n) 
+  }
+
+  it('returns NaN as appropriate', function() {
+    expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
+  }
