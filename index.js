@@ -58,6 +58,13 @@ function preserveDecimal(n) {
   return parseFloat(n) 
   }
 
-  it('returns NaN as appropriate', function() {
+function preserveDecimal(n) {
+  // returns NaN as appropriate
+  var parsed = parseFloat(n);
+  if (isNaN(parsed)) {return 0}
+  return parseFloat(n) 
+  }
+
+function preserveDecimal() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   }
