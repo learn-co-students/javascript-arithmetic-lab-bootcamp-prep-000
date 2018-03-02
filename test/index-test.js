@@ -60,15 +60,19 @@ it('dec(n) decrements n and returns the result', function() {
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(1)
-  })
+    parseInt('1', 1)
+    makeInt('true')
+    expect(makeInt('1')isEqualto(1)
+  }))
+  
+  
+  
 
   it('assumes base 10', function() {
     expect(makeInt('0x2328')).toEqual(0)
   })
 
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
+  returns = (0)
   })
 })
 
