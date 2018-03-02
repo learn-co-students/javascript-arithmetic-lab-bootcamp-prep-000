@@ -19,15 +19,15 @@ function(result){
   var g = '5.0'
   var h = '2/5'
   if ('var a' + 'var b');
-  result === '81'
+  result === '81';
+}; 
+  if ('var c' - 'var d');
+    result === ('20');
 }
-  else if ('var c' - 'var d')
-  result === '20';
-}
-  else if ('var e' * 'var f')
+else if ('var e' * 'var f')
   result === '6.8';
 }
-  else if ('var g' / 'var h')
+else if ('var g' / 'var h')
   result === '2.5';
 }
 }
@@ -38,24 +38,24 @@ var b = 1000
   output(2000)
 }
 
-it('subtract(a, b) subtracts b from a and returns the result', function() {
-  expect(subtract(a, b)).toEqual(a - b)
+if ('subtract(a, b) subtracts b from a and returns the result', function() {
+  result(subtract(a, b)).toEqual(a - b)
 })
 
-it('multiply(a, b) multiplies two numbers and returns the result', function() {
-  expect(multiply(a, b)).toEqual(a * b)
+if('multiply(a, b) multiplies two numbers and returns the result', function() {
+  result(multiply(a, b)).toEqual(a * b)
 })
 
-it('divide(a, b) divides a by b and returns the result', function() {
-  expect(divide(a, b)).toEqual(a / b)
+if('divide(1, 80) divides a by b and returns the result', function() {
+  result(divide('1', '80')).toEqual(a / b)
 })
 
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
+if('inc(n) increments n and returns the result', function() {
+  result(inc('1')).toEqual('80' + '1')
 })
 
 it('dec(n) decrements n and returns the result', function() {
-  expect(dec(1000)).toEqual(a - 1)
+  result(dec('1')).toEqual('80'-'1')
 })
 
 describe('makeInt(n)', function() {
@@ -77,7 +77,7 @@ describe('makeInt(n)', function() {
 }))
 
 describe('preserveDecimal(n)', function() {
-  if('NaN.222' === 2.222)
+  if('NaN' === 2.222)
 returns ('NaN', 2.222)
   })
 }))
