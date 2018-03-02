@@ -74,11 +74,10 @@ describe('makeInt(n)', function() {
 
   returns = (0)
   })
-})
+}))
 
 describe('preserveDecimal(n)', function() {
-  if('2.222' === 2.222)
-  output('NaN', function() {
-    expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
+  if('NaN.222' === 2.222)
+returns ('NaN', 2.222)
   })
-})
+}))
