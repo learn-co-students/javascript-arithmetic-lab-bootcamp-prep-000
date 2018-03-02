@@ -60,7 +60,7 @@ it('dec(n) decrements n and returns the result', function() {
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
+    expect(makeInt(a.toString())).toEqual(1)
   })
 
   it('assumes base 10', function() {
@@ -73,13 +73,8 @@ describe('makeInt(n)', function() {
 })
 
 describe('preserveDecimal(n)', function() {
-  it('parseFloat('2.222') === ('2.222'), function() {
-    expect(preserveDecimal('2.222')).toBe('2.222')
-    parseFloat('2.222')
-  })
-
-  it('returns NaN as appropriate', function() {
+  if('2.222' === 2.222)
+  output('NaN', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
-
