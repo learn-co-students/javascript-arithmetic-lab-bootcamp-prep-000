@@ -26,7 +26,12 @@ function dec(a) {
   return a - 1;
 }
 
-function makeInt() {
-var a = parseInt("5")
-return a
+function makeInt(data) {
+  var a = parseInt(data, 10);
+  return a;
+}
+
+function preserveDecimal(data) {
+  var a = parseFloat(data, 10);
+  return a;
 }
