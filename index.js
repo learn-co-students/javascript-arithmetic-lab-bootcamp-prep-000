@@ -39,10 +39,4 @@ function preserveDecimal(n) {
   return parseFloat(n);
   }   
 
-/*
- let parses = parseInt(n);
-  if(isNaN(parses)) {return 0}
-
-
-
-*/
+l
