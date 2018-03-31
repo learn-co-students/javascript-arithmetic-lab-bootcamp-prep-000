@@ -1,3 +1,31 @@
-var a = [5,1,4,7,8];
-var i=1;
-console.log(a[++(i++)]);
+function add(a, b) {
+  return a+b;
+}
+
+function subtract(a, b) {
+  return a-b;
+}
+
+function multiply(a, b) {
+  return a*b;
+}
+
+function divide(a, b) {
+  return a/b;
+}
+
+function inc(a) {
+  return ++a;
+}
+
+function dec(a) {
+  return --a;
+}
+
+function makeInt(a) {
+  return parseInt(a, 10);
+}
+  
+function preserveDecimal(a) {
+  return parseFloat(a);
+}
