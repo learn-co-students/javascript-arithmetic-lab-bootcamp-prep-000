@@ -1,4 +1,4 @@
-JavaScript Arithmetic Lab
+    parseInt('nonsense!', 10)JavaScript Arithmetic Lab
 ---
 
 ## Objectives
