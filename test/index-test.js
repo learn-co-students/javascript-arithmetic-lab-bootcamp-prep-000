@@ -16,7 +16,7 @@ it('subtract(a, b) subtracts b from a and returns the result', function() {
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
   expect(multiply(a, b)).toEqual(a * b)
 })
-
+https://learn.co/tracks/bootcamp-prep/javascript-fundamentals/functions-and-scope/javascript-arithmetic-lab#
 it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
 })
