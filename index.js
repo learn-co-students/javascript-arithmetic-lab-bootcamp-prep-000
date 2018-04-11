@@ -18,7 +18,24 @@ function divide(a, b) {
 }
 divide(2/1)
 
+var n = 5
 function inc(n) {
-  return  n += r
+  return n += 1
 }
-inc(6)
+
+var n = 5
+function dec(n) {
+  return n -= 1
+}
+
+function makeInt(n) {
+  return parseInt('Hi', 10)
+}
+
+function makeInt(n) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n, 4.4)
+}
