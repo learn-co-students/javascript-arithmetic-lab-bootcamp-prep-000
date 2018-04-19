@@ -8,4 +8,4 @@ function divide()
 
 makeInt(n)
 
-preserveDecimal(n
+preserveDecimal(n)
