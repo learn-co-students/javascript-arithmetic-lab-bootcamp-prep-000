@@ -1,24 +1,34 @@
-num = 10.5
-
-function add5() {
-  return num += 5
+function add(a,b) {
+  return a + b
 }
 
-console.log(parseInt(add5()))
-console.log(parseFloat(80.0987))
-console.log(parseFloat("80.0987"))
-console.log(80.0987)
+function subtract(a,b) {
+  return a - b
+}
 
+function multiply(a,b) {
+  return a * b
+}
+
+function divide(a,b) {
+  return a / b
+}
+
+
+function inc(a) {
+  return a += 1
+}
+
+function dec(a) {
+  return a -= 1
+}
 
 function makeInt(num) {
-  return parseInt(num)
+  return parseInt(num, 10)
 }
 
 function preserveDecimal(num) {
   return parseFloat(num)
 }
-
-console.log(makeInt(9.919))
-console.log(preserveDecimal(81.81))
 
 
