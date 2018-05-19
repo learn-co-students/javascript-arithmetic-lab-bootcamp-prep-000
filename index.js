@@ -24,3 +24,11 @@ function dec(num4) {
 function multiply(num1, num2) {
   return num1 * num2;  
 }
+
+function makeInt(num) {
+  return ;  
+}
+
+function makeInt(num) {
+  return parseInt(num,10);  
+}
