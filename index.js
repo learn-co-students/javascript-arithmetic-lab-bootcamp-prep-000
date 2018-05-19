@@ -11,8 +11,14 @@ function divide(num1, num2) {
   return num1 / num2;  
 }
 
-function inc(num1) {
-  return num1++;  
+function inc(num3) {
+  
+  return ++num3;  
+}
+
+function dec(num4) {
+  
+  return --num4;  
 }
 
 function multiply(num1, num2) {
