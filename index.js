@@ -28,39 +28,10 @@ function dec (n){
   return n;
 }
 
-
-
-
-
 function makeInt (n){
-  var result = parseInt ('0x2383')
-  return result;
+  return parseInt (n, 10)
 }
-
-
 
 function preserveDecimal (n){
-  parseFloat ('n');
-  return n;
+  return parseFloat (n);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
