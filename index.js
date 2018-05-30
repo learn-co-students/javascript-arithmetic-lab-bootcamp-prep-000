@@ -1,6 +1,5 @@
-function add(){
-var value= 1 + 80;
- return(value);
+function add(a + b){
+ return 1 + 80;
 }
 
 function subtract(){
