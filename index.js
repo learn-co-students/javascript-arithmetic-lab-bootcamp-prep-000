@@ -1,18 +1,15 @@
 function add(a, b){
- return 1 + 80;
+ return(1 + 80);
 }
 
-function subtract(){
- var value= 60 - 40;
-  return(value);
+function subtract(a, b){
+ return(60 -40);
 }
 
-function multiply(){
-var value= 2 * 3.4;
-return(value);
+function multiply(a, b){
+return(2 * 3.4);
 }
 
-function divide(){
-var value= 5.0 / 2.5;
-return(value);
+function divide(a, b){
+return(5.0 / 2.5);
 }
