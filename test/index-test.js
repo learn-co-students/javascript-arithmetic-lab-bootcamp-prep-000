@@ -35,7 +35,7 @@ describe('makeInt(n)', function() {
   })
 
   it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
+    expect(makeInt('0*2328')).toEqual(0)
   })
 
   it('returns NaN as appropriate', function() {
