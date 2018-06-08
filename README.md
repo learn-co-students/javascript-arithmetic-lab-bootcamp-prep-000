@@ -1,4 +1,6 @@
-JavaScript Arithmetic Lab
+def add(a, b)
+  return a + b
+endJavaScript Arithmetic Lab
 ---
 
 ## Objectives
