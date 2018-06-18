@@ -20,18 +20,19 @@ function dec(n) {
   return n - 1
 }
 function makeInt(n){
-  parseInt('n', 10)
+  var number = n
+  parseInt('n')
   return n
 }
-function makeInt(n){
-  parseInt('0', 10)
-  return n
+function makeInt10(n){
+  var parsed = parseInt(n, 10);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 10;
 }
-function preserveDecimal(n) {
-  parseFloat('n')
-  return n 
+function preserveDecimal() {
+  var number = '2.222'
+  parseFloat('2.222')
 }
-function preserveDecimal(n){
+function preserveDecimalNan(n){
 parseFloat('nonsense')
-return n 
 }
