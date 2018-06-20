@@ -1,5 +1,4 @@
-var a = 1 
-var b = 2
+var a = 1
 
 function add (a, b) {
    return a + b
@@ -29,6 +28,6 @@ function makeInt (n) {
   return parseInt (n, 10)
 }
 
-function preserveDecimal (a) {
-  return parseFloat (a)
+function preserveDecimal (n) {
+  return parseFloat (n)
 }
