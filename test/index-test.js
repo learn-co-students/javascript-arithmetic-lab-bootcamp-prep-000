@@ -1,4 +1,41 @@
-var a, b
+var a = 500
+var b = 100
+var n = 10
+
+function add(a, b) {
+  return a + b
+}
+
+function subtract(a, b) {
+  return a - b
+}
+
+function multiply(a, b) {
+  return a * b
+}
+
+function divide(a, b) {
+  return a /b 
+}
+
+function inc(n) {
+  n++
+  return n
+}
+
+function dec(n) {
+  n--
+  return n
+}
+
+function makeInt(n, base) {
+  return parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+  
+}
 
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
@@ -51,4 +88,4 @@ describe('preserveDecimal(n)', function() {
   it('returns NaN as appropriate', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
-})
+});
