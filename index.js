@@ -11,18 +11,18 @@ function divide(a, b) {
   return a / b
 }
 
-function inc(a) {
-  return a += 1
+function inc(n) {
+  return n += 1
 }
 
-function dec(a) {
-  return a -= 1
+function dec(n) {
+  return n -= 1
 }
 
-function makeInt(a) {
-  return parseInt(a, 10)
+function makeInt(n) {
+  return parseInt(n, 10)
 }
 
-function preserveDecimal (a) {
-  return parseFloat(a)
+function preserveDecimal (n) {
+  return parseFloat(n)
 }
