@@ -20,15 +20,27 @@ function divide(a,b)
 
 function inc(a)
 {
-  return a + 1;
+  return a+= 1;
 }
 
 function dec(a)
 {
-  return a - 1;
+  return a-= 1;
 }
 
-function makeInt(a)
+function makeInt(n)
 {
-  return a - 1;
+  
+  return parseInt(n,10)
 }
+
+
+function preserveDecimal(n)
+{
+  
+  return parseFloat(n,10)
+}
+
+
+
+
