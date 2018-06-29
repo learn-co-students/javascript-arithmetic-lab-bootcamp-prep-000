@@ -1,4 +1,5 @@
-var a, b
+var a
+var b
 
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
