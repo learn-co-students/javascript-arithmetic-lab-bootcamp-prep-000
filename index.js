@@ -1,17 +1,17 @@
 function add(a, b) {
-  return(a + b);
+  return(a + b); // adds a and b
 }
 
 function subtract(a, b) {
-  return(a - b);
+  return(a - b); // subtracts b from a
 }
 
 function multiply(a, b) {
-  return(a * b);
+  return(a * b); // multiplies a by b
 }
 
 function divide(a, b) {
-  return(a / b);
+  return(a / b); // divides a by b
 }
 
 function inc(n) {
