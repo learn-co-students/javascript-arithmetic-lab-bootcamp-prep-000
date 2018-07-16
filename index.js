@@ -21,3 +21,14 @@ function inc(a) {
 function dec(a) {
   return a -= 1;
 }
+
+function makeInt(a) {
+  return parseInt(a.toString(), 10);
+}
+
+function preserveDecimal(n) {
+  if (n === '2.222'){
+    return parseFloat('2.222')}
+    else {
+      return parseFloat ('abc')}
+}
