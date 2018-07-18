@@ -34,12 +34,13 @@ function dec(n) {
 //good above
 
 function makeInt(n) {
-  return n
-  n = parseInt('0*2328', 10)
-
-  
+  return parseInt(n, 10)
 }
+//good above
 
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
 
 
 
