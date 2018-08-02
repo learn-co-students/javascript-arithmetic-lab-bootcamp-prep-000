@@ -34,6 +34,6 @@ console.log("Starting Arithmetic Lab") // string NOT DISPLAYED
 
 n = 341
 
-add(1336, 1)
+add('1336', '1')
 
 
