@@ -34,8 +34,8 @@ preserveDecimal(n)
  
 console.log("Starting JavaScript Arithmetic Lab") // string NOT DISPLAYED 
 
-var n = 341
+var n1 = 1
 
-add('1336', '1')
+add(n1, n1)
 
 console.log("Finished JavaScript Arithmetic Lab") // string NOT DISPLAYED 
