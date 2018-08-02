@@ -25,3 +25,7 @@ function dec(n){
 parseInt('2', 10) // 2
 
 parseFloat()
+
+makeInt(n) 
+
+preserveDecimal(n)
