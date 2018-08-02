@@ -32,5 +32,5 @@ preserveDecimal(n)
  */
 console.log("Starting Arithmetic Lab") // string NOT DISPLAYED 
 
-n = 1
+n = 341
 
