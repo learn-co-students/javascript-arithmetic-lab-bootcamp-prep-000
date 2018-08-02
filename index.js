@@ -30,4 +30,4 @@ makeInt(n)
 
 preserveDecimal(n)
 
-console.log($n)
+console.log('Starting Lab')
