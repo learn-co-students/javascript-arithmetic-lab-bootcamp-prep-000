@@ -1,7 +1,7 @@
 function add(a, b) {
   return `$a + $b`
 }
-
+/*
 function subtract(a, b) {
   
 }
@@ -21,7 +21,7 @@ function inc(n) {
 function dec(n){
   return n--
 }
-/*
+
 parseInt('2', 10) // 2
 
 parseFloat()
@@ -30,7 +30,7 @@ makeInt(n)
 
 preserveDecimal(n)
  */
-console.log("Starting Arithmetic Lab") // string NOT DISPLAYED 
+console.log("Starting JavaScript Arithmetic Lab") // string NOT DISPLAYED 
 
 n = 341
 
