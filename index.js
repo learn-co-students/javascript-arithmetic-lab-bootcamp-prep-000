@@ -31,3 +31,6 @@ makeInt(n)
 preserveDecimal(n)
  */
 console.log("Starting Arithmetic Lab") // string NOT DISPLAYED 
+
+n = 1
+
