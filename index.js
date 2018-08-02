@@ -1,6 +1,6 @@
 //
 function add(a, b) {
-  return `$a \+ $b`
+  return `pareInt($a) \+ parseInt($b)`
 }
 /*
 function subtract(a, b) {
