@@ -29,3 +29,5 @@ parseFloat()
 makeInt(n) 
 
 preserveDecimal(n)
+
+console.log($n)
