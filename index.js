@@ -6,15 +6,15 @@ function add(a, b) {
 function subtract(a, b) {
   return a -b
 }
+
+functionmultiply(a, b){
+  return a * b
+}
+
+function divide(a, b) {
+  return a / b
+}
 /*
-functionmultiply(){
-  
-}
-
-function divide() {
-  
-}
-
 function inc(n) {
   
 }
