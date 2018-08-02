@@ -1,6 +1,5 @@
-/*
 function add() {
-  console.log('in add')
+  
 }
 
 function subtract() {
@@ -30,5 +29,5 @@ parseFloat()
 makeInt(n) 
 
 preserveDecimal(n)
- */
+
 console.log("Starting Lab") // string NOT DISPLAYED 
