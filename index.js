@@ -7,7 +7,7 @@ function subtract(a, b) {
   return a -b
 }
 
-functionmultiply(a, b){
+function multiply(a, b) {
   return a * b
 }
 
