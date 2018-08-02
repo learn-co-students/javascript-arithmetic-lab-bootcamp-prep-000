@@ -33,7 +33,7 @@ preserveDecimal(n)
  
 console.log("Starting JavaScript Arithmetic Lab") // string NOT DISPLAYED 
 
-var n1 = 1
+n1 = 1
 
 add(n1, n1)
 
