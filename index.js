@@ -1,3 +1,4 @@
+//
 function add(a, b) {
   return `$a \+ $b`
 }
@@ -37,3 +38,20 @@ n = 341
 add('1336', '1')
 
 
+=======
+function add() {
+  console.log('in add')
+}
+
+function subtract() {
+  
+}
+
+function multiply() {
+  
+}
+
+function divide() {
+  
+}
+>>>>>>> f3a021dc4c6e12980f1f8b3c7a5f9ed70f64b655
