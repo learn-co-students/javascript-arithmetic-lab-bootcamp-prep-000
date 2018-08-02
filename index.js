@@ -1,3 +1,4 @@
+/*
 function add() {
   console.log('in add')
 }
@@ -29,5 +30,5 @@ parseFloat()
 makeInt(n) 
 
 preserveDecimal(n)
-
+ */
 console.log(`Starting Lab`)
