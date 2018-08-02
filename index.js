@@ -30,4 +30,4 @@ makeInt(n)
 
 preserveDecimal(n)
  */
-console.log("Starting Variables Lab") // string NOT DISPLAYED 
+console.log("Starting Arithmetic Lab") // string NOT DISPLAYED 
