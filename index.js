@@ -1,27 +1,27 @@
-function add() {
+function add(a, b) {
   
 }
 
-function subtract() {
+function subtract(a, b) {
   
 }
 
-function multiply() {
+function multiply(a, b) {
   
 }
 
-function divide() {
+function divide(a, b) {
   
 }
 
 function inc(n) {
-  
+  return n++
 }
 
 function dec(n){
-  
+  return n--
 }
-
+/*
 parseInt('2', 10) // 2
 
 parseFloat()
@@ -29,5 +29,5 @@ parseFloat()
 makeInt(n) 
 
 preserveDecimal(n)
-
-console.log("Starting Lab") // string NOT DISPLAYED 
+ */
+console.log("Starting Variables Lab") // string NOT DISPLAYED 
