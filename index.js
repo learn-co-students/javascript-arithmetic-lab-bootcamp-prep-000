@@ -1,6 +1,27 @@
 /*
-functions add(), subtract(), multiply(), divide()
-functions: inc(n) and dec(n)
+function add() {
+  
+}
+
+function subtract() {
+  
+}
+
+functionmultiply(){
+  
+}
+
+function divide() {
+  
+}
+
+function inc(n) {
+  
+}
+
+function dec(n){
+  
+}
 
  */
 
