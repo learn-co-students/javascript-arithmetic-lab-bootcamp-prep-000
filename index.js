@@ -31,4 +31,4 @@ makeInt(n)
 
 preserveDecimal(n)
  */
-console.log("Starting Lab")
+console.log("Starting Lab") // NOTHING DISPLAYED 
