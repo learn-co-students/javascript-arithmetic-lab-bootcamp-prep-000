@@ -13,11 +13,11 @@ function multiply(a, b) {
 function divide(a, b) {
   return a / b
 }
-/*
+
 function inc(n) {
   return n++
 }
-
+/*
 function dec(n){
   return n--
 }
@@ -32,9 +32,5 @@ preserveDecimal(n)
  */
  
 console.log("Starting JavaScript Arithmetic Lab") // string NOT DISPLAYED 
-
-n1 = 1
-
-add(n1, n1)
 
 console.log("Finished JavaScript Arithmetic Lab") // string NOT DISPLAYED 
