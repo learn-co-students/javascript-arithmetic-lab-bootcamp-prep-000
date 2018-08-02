@@ -22,6 +22,6 @@ function dec(n){
   
 }
 
-// parseInt('2', 10) // 2
+parseInt('2', 10) // 2
 
 // parseFloat()
