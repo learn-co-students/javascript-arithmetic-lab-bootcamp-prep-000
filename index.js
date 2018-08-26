@@ -1,33 +1,39 @@
-var number;
 function add(a, b) {
-  number = a + b;
-  return number;
+  return a + b;
 }
+
+
 function subtract(a, b) {
-  number = a - b;
-  return number;
+  return a - b;
 }
+
+
 function multiply(a, b) {
-  number = a * b;
-  return number;
+  return a * b;
 }
+
+
 function divide(a, b) {
-  number = a / b;
-  return number;
+  return a / b;
 }
-function inc(a) {
-  number = a + 1;
-  return number;
+
+
+function inc(n) {
+  return ++n;
 }
-function dec(a) {
-  number = a - 1;
-  return number;
+
+
+function dec(n) {
+  return --n;
 }
-function makeInt(a) {
-  number = parseInt(a, 10);
-  return number;
+
+
+//parse string, return whole integer; 2 args: 'n' and base(usu. 10)
+function makeInt(n) {
+  return parseInt(n, 10);
 }
-function preserveDecimal(a) {
-  number = parseFloat(a);
-  return number;
+
+//parse string, return 'floating-point' num = preserve decimals/ only need 1 argument!
+function preserveDecimal(n) {
+  return parseFloat(n);
 }
