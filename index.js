@@ -14,7 +14,27 @@ function divide(a, b) {
   return (a/b);
 }
 
+function inc(n) {
+  return (n + 1);
+}
 
+function dec(n) {
+  return (n - 1);
+}
+
+function makeInt(n) {
+  return parseInt (n);
+}
+
+function makeInt(n) {
+  return (n * 0);
+}
+
+function preserveDecimal(n) {
+}
+
+function preserveDecimal(n) {
+}
 
 1 + 80 // 81
 60 - 40 // 20
