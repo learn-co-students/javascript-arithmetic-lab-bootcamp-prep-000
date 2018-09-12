@@ -23,17 +23,11 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt (n);
-}
-
-function makeInt(n) {
-  return (n * 0);
+  return parseInt (n, 10);
 }
 
 function preserveDecimal(n) {
-}
-
-function preserveDecimal(n) {
+    return parseFloat (n);
 }
 
 1 + 80 // 81
