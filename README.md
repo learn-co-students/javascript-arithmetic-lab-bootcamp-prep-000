@@ -22,6 +22,7 @@ The most fundamental math operations work as one might expect in JavaScript: `+`
 60 - 40 // 20
 2 * 3.4 // 6.8 (there's that floating-point arithmetic again...)
 5.0 / 2.5 // 2
+
 ```
 
 At this point, we can fix the first _four_ broken tests: we can define functions `add()`, `subtract()`, `multiply()`, `divide()` in `index.js`.
