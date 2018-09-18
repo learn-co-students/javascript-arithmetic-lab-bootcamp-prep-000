@@ -1,34 +1,9 @@
-var number = 10
 
-function functionadd5(){
-  number += 5
+function makeInt(n){
+  parseInt('13', 10)
 }
-function divideBy3() {
-  number /= 3
+function preserveDecimal(n){
+  parseFloat('80.123999')
 }
-function subtract(){
-  
-}
-function multiply(){
-  
-}
-function divide(){
-  
-}
-divideBy3()
- 
-console.log(number)
- 
-add5()
- 
-console.log(number)
- 
-number = 10
- 
-add5()
- 
-console.log(number)
- 
-divideBy3()
- 
-console.log(number)
+makeInt(n)
+preserveDecimal(n)
