@@ -15,19 +15,18 @@ function divide(a,b) {
 return a/b; 
  }
 
-var a=5 ;
+
  function numberInc(a) {
  a+=1;
  return a;
  }
  
- function numberDec(number) {
- number--;
- return number;
+ function numberDec(a) {
+ a--;
+ return a;
   }
  
 var number = 10;
-
 function add5() {
   number+=5;
  }
