@@ -14,9 +14,10 @@ function multiply(a,b) {
 function divide(a,b) {
 return a/b; 
  }
- 
+
+var a=5 ;
  function numberInc(a) {
- a++;
+ a+=1;
  return a;
  }
  
