@@ -1,35 +1,29 @@
-var a,b
 
 function add(a,b) {
- a+b;
- return;
+  return a+b; 
  }
 
 function subtract(a,b) {
-  a-b;
- return;
+  return a-b; 
  }
 
 function multiply(a,b) {
- a*b;
- return;
+ return a*b; 
  }
 
 function divide(a,b) {
-  a/b;
- return;
+return a/b; 
  }
  
- var number = 5;
- function numberInc(number) {
- number++;
- return(number);
+ function numberInc(a) {
+ a++;
+ return a;
  }
  
  function numberDec(number) {
  number--;
- return(number);
- }
+ return number;
+  }
  
 var number = 10;
 
