@@ -27,10 +27,20 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  return a
+  return parseInt(a, 10)
 }
 
-parseInt('0x2328', 10); {
-  
+function preserveDecimal(a) {
+  return parseFloat(a)
 }
+
+
+
+
+
+
+
+
+
+
 
