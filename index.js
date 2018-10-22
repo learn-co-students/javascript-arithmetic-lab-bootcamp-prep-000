@@ -34,5 +34,3 @@ function makeInt(n) {
 function preserveDecimal(n) {
       return parseFloat(n)
 }
-
-//made a var bananas and added it to the final one, before realising it wasn't needed
