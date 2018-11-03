@@ -20,12 +20,12 @@ function divide(a,b) {
 
 function inc(n){
   console.log(n++); // rising inc of n
-  return n;
+  return n++;
 }
 
 function dec(n) {
   console.log(n--); // dec of n
-  return n;
+  return n--;
 }
 
 function makeInt(n) {
@@ -34,9 +34,9 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  return parseFloat(n, 10);
+  return parseFloat(n, 10); // preserveDecimal of n and return the parsed number
 }
 
 function preserveDecimal(n) {
-  return parseFloat(n);
+  return parseFloat(n); // preserveDecimal of n and return n
 }
