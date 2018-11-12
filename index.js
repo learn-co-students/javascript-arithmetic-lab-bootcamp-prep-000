@@ -8,3 +8,9 @@ function divideBy3(){
 
 divideBy3() ;
 console.log(number) ;
+
+add5();
+console.log(number);
+
+divideBy3();
+console.log(number);
