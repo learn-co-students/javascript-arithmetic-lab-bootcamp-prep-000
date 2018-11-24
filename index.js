@@ -28,14 +28,10 @@ function dec(a){
   return a-=1;
 }
 
-function makeInt(){
-    var n = parseInt('a',10);
-    return n;
-}
 
-function makeInt(){ 
-  var n = parseInt('0x2328',10);
-  return n*=0;
+function makeInt(n){ 
+  return parseInt('n',10);
+  
 }
 
 function makeInt(){
@@ -45,10 +41,10 @@ function makeInt(){
  }
 }
 
-function preserveDecimal(){
-  return parseFloat('2.222');
-  
-}
+function preserveDecimal(n){
+  n = 2.222;
+ return parseFloat('n');
+ }
 
 function preserveDecimal(){
   var n = parseFloat('sldkjflksjf');
