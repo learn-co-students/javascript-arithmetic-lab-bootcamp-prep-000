@@ -5,25 +5,49 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
+function add(a, b){
+  return a + b;
+}
+
 it('add(a, b) adds two numbers and returns the result', function() {
   expect(add(a, b)).toEqual(a + b)
 })
+
+function subtract(a, b){
+  return a - b;
+}
 
 it('subtract(a, b) subtracts b from a and returns the result', function() {
   expect(subtract(a, b)).toEqual(a - b)
 })
 
+function multiply(a, b){
+  return a * b;
+}
+
 it('multiply(a, b) multiplies two numbers and returns the result', function() {
   expect(multiply(a, b)).toEqual(a * b)
 })
+
+function divide(a, b){
+  return a / b;
+}
 
 it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
 })
 
+function inc(n){
+  return ++n;
+}
+
 it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
 })
+
+function dec(n){
+  return --n;
+}
 
 it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
@@ -43,10 +67,13 @@ describe('makeInt(n)', function() {
   })
 })
 
+
 describe('preserveDecimal(n)', function() {
   it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
     expect(preserveDecimal('2.222')).toBe(2.222)
   })
+
+
 
   it('returns NaN as appropriate', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
