@@ -1,10 +1,3 @@
-var a, b
-
-beforeEach(function() {
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-})
-
 function add(a, b){
   return a + b;
 }
@@ -30,17 +23,9 @@ function dec(n){
 }
 
 function makeInt(n){
-  return parseInt('n', 10)
-}
-
-  function makeInt(n){
-  return parseInt()
-}
-
-function makeInt(n){
-  return parseInt('nonsense!', 10)
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n){
-  parseFloat('2.222')
+  return parseFloat(n)
 }
