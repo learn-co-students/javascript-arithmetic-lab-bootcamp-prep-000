@@ -26,7 +26,22 @@ function dec(a) {
   return a
 }
 
-function makeInt(a) {
-  var x = parseInt(a)
-  return (x /= 0)
+function makeInt(n) {
+  var x = parseInt(n, 10)
+    return x
+  if (x === "Nan")
+    return "NaN"
 }
+
+function preserveDecimal(n) {
+  var x = parseFloat(n)
+    return x
+  if (x.toString() === x)
+    return "NaN"
+}
+
+
+
+
+
+
