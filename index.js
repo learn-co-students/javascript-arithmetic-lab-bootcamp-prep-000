@@ -28,27 +28,10 @@ function dec(a){
   return a-=1;
 }
 
-
 function makeInt(n){ 
-  return parseInt('n',10);
-  
-}
-
-function makeInt(){
-  var n = parseInt('sldkjflksjf',10);
-  if(isNaN(n)){
-    return 'NaN as appropriate';
- }
+  return parseInt(n,10);
 }
 
 function preserveDecimal(n){
-  n = 2.222;
- return parseFloat('n');
- }
-
-function preserveDecimal(){
-  var n = parseFloat('sldkjflksjf');
-  if(isNaN(n)){
-    return 'NaN as appropriate';
-  }
+   return parseFloat(n);
 }
