@@ -30,6 +30,6 @@ function preserveDecimal(n) {
  return parseFloat(n);
 }
 
-console.log("please submit")
+console.log("Please submit")
 
 
