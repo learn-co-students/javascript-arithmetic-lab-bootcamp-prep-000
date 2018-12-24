@@ -22,14 +22,22 @@ function dec(n) {
   return n-=1;
 }
 
-function makeInt(n) {
-  return parseInt("10");
+function makeInt (n) {
+  return parseInt("225", 10);
 }
 
-function makeInt(n) {
-  return parseFloat(0.0152);
+function makeInt (n) {
+  return parseInt('0', 0);
 }
 
-function makeInt(n) {
+function makeInt (n) {
   return parseInt("Hello");
+}
+
+function preserveDecimal (n) {
+  return parseFloat('2.222');
+}
+
+function preserveDecimal (n) {
+  return parseFloat('Hello');
 }
