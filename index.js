@@ -1,26 +1,31 @@
-var number = 10
-function add5() {
-  number += 5
+function add(a,b){
+  return a + b;
 }
 
-function divideby3() {
-  number /= 3
+function subtract(a,b){
+  return a - b;
 }
 
-divideBy3()
+function multiply(a,b){
+  return a * b;
+}
 
-console.log(number)
+function divide(a,b){
+  return a / b;
+}
 
-add5()
+function inc(n){
+  return n += 1;
+}
 
-console.log(number)
+function dec(n){
+  return n -= 1;
+}
 
-number = 10
+function makeInt(n){
+  return parseInt(n, 10);
+}
 
-add5()
-
-console.log(number)
-
-divideBy3()
-
-console.log(number)
+function preserveDecimal(n){
+  return parseFloat(n);
+}
