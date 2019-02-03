@@ -26,6 +26,6 @@ const makeInt = (n) => {
   return parseInt(n,10);
 };
 
-const perserveDecimal = (n) => {
+const preserveDecimal = (n) => {
   return parseFloat(n);
 };
