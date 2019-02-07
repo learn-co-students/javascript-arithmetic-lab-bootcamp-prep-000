@@ -40,9 +40,6 @@ function preserveDecimal(n){
 }
 
 function preserveDecimal(n){
-<<<<<<< HEAD
   return parseFloat(n)
-=======
-  return parseFloat("n")
->>>>>>> f99b6a2c500c7c5cfbc2473c4a1acb26f9f5b63d
 }
+
