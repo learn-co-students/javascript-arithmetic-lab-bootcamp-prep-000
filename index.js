@@ -18,11 +18,11 @@ function inc(n) {
 function inc(n) {
   return  --n
 }
-function makeINT(2) {
+function makeINT(4) {
   
-  return parseInt(2, 10)
+  return parseInt('4', 10)
 }
 function makeINT(n) {
   
-  return  preserveDecimal (2, 10)
+  return  preserveDecimal ('4.444', 10)
 }
