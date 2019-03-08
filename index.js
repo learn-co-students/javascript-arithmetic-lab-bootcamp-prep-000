@@ -1,41 +1,31 @@
-var number
-
-function add(a,b) {
-number = a + b;
-return number;
+function add(a,b){
+  return (a + b);
 }
 
-function subtract(a,b) {
-number = a - b;
-return number;
+function subtract(a,b){
+  return (a-b);
 }
 
-function multiply(a,b) {
-number = a * b;
-return number;
+function multiply(a,b){
+  return (a*b);
 }
 
-function divide(a,b) {
-number = a / b;
-return number;
+function divide(a,b){
+  return (a/b);
 }
 
-function inc(a) {
-number = a + 1;
-return number;
+function inc(n){
+  return (n += 1);
 }
 
-function dec(a) {
-number = a - 1;
-return number;
+function dec(n){
+  return (n -= 1);
 }
 
-function makeInt(a) { 
-number = parseInt (a, 10);
-return number;
+function makeInt(n){
+  return parseInt(n,10);
 }
 
-function preserveDecimal(a) { 
-number = parseFloat (a, 10);
-return number;
+function preserveDecimal(n){
+  return parseFloat(n);
 }
