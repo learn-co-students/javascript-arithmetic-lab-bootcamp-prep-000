@@ -18,6 +18,10 @@ function dec(n){
   n--
   return n
 }
-function makeInt(a){
-  parseInt(a, 10)
+function makeInt(n){
+  parseInt(n, 10)
+}
+function makeInt(n, base){
+  var parsed = parseInt(n, base)
+  return parsed
 }
