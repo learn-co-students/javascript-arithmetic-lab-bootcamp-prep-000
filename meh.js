@@ -1,0 +1,1 @@
+parseInt('meh', 10)
