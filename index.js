@@ -1,5 +1,5 @@
 function add(a, b) {
-  return a + b
+  return
 }
 
 function subtract(a, b) {
@@ -25,12 +25,14 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return n
+  return parseInt(n) {
+
+  }
 }
 
 function perserveDecimal(n) {
   return n
 }
 function perserveDecimal(n) {
-  return 'Hello'
+  return n
 }
