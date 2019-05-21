@@ -1,0 +1,11 @@
+add(10, 5);
+subtract(14, 7);
+multiply(5, 3);
+divide(100, 20);
+4 +=;
+11 -=;
+parseInt(3.14);
+parseInt(9.96);
+parseInt(poodle);
+parseFloat(3.14);
+parseFloat(yorkie);
