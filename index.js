@@ -29,6 +29,3 @@ function multiply(a, b){
 function preserveDecimal(n){
   return parseFloat(n)
 }
-
-
-
