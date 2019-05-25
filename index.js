@@ -42,3 +42,6 @@ function add(a, b) {
      return n;
  }
  
+ function preserveDecimal(n) {
+  n = parseFloat('n')
+ }
