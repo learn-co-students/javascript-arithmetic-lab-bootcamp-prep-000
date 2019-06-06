@@ -34,10 +34,7 @@ function makeInt(a){
    
     
     
-     function preserveDecimal(n){
-       parseFloat('sldkjflksjf')
-       return isNaN
-     }
+    
     
   
   
