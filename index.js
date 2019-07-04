@@ -27,8 +27,10 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  return ('0x2328', 10)
+  return parseInt(n, 10)
 }
 
-
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
 
