@@ -28,7 +28,7 @@ At this point, we can fix the first _four_ broken tests: we can define functions
 
 ## Math + Assignment
 
-Additionally, we can increment (`++`) and decrement (`--`) a number if it's assigned to a variable:
+Additionally, we can increment (`++`) and decrement (`--`) a number if it's a ssigned to a variable:
 
 ``` javascript
 var number = 5
