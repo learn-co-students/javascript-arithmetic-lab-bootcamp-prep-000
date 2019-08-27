@@ -18,6 +18,7 @@ function divide (a, b) {
 }
 divide (5.0 , 2.5);
 
-var a = 5;
-a++;
-console.log (a);
+
+function inc (a, '5') {
+  return a++
+}
