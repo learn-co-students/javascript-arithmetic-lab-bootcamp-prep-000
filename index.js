@@ -33,9 +33,18 @@ function makeInt(a, b) {
   return parseInt(a, 10);
 }
 
-function perserveDecimal() {
-  return ('2.222', a);
+function preserveDecimal(a, b) {
+  return parseFloat('a', b);
 }
+
+function preserveDecimal(a, b) {
+  return parseFloat(a, 10);
+}
+
+
+
+
+
 
 
 
