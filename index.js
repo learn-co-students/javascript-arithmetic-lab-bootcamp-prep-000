@@ -1,25 +1,25 @@
 function add(a,b) {
-  return parseInt(a+b)
+  return a+b
 }
 
 function subtract(a,b) {
-  return parseInt(a-b)
+  return a-b
 }
 
 function multiply(a,b) {
-  return parseInt(a*b)
+  return a*b
 }
 
 function divide(a,b) {
-  return parseFloat(a/b)
+  return a/b
 }
 
 function inc(n) {
-  return parseInt(n)+1
+  return n+1
 }
 
 function dec(n) {
-  return parseInt(n)-1
+  return n-1
 }
 
 function makeInt(n) {
