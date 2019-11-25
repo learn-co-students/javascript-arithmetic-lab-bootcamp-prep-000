@@ -17,4 +17,11 @@ function inc(a) {
 function dec(a) {
   return a - 1
 }
+//function parseInt
 //what is makeInt(n) mean?!?
+function makeInt(number) {
+  return parseInt(number, 10)
+}
+function preserveDecimal(nextNumber){
+  return parseFloat(nextNumber, 10)
+}
