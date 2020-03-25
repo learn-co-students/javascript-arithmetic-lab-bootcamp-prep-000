@@ -1,11 +1,18 @@
-add(){
-return  1 + 80
-} // 81
- subtract(){
-   return 60 - 40
- } // 20
-multiply(){
-return 2 * 3.4
-}// 6.8 (there's that floating-point arithmetic again...)
-divide(){
-  return 5.0 / 2.5 }// 2
+function add(a,b){
+  return a+b;
+}
+function subtract(a,b){
+  return a-b;
+}
+function multiply(a,b){
+  return a*b;
+}
+function divide(a,b){
+  return a/b;
+}
+function inc(n){
+  return ++n;
+}
+function dec(n){
+  return --n;
+}
