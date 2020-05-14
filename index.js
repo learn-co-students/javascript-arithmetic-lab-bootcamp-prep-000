@@ -38,14 +38,9 @@ function decrement(n) {
   return n - 1;
 }
 
-
-var n = '2';
-
 function makeInt(n) {
   return parseInt(n, 10);
 }
-
-var n = '2.2222';
 
 function preserveDecimal(n) {
   return parseFloat(n);
