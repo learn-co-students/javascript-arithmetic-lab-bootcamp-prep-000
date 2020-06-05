@@ -18,14 +18,13 @@ function increment(a){return (a + 1)}
 
 function decrement(a){return (a - 1)}
 
-function makeInt(n){
-   return n }
+function makeInt(string) {
+  return parseInt(string, 10)
+}
 
-
-function preserveDecimal(x){ 
-   x = 0;
-   x = x + 2.222 ;
-   return x}
+function preserveDecimal(string) {
+  return parseFloat(string)
+}
     
 
 
