@@ -29,3 +29,8 @@ function makeInt(n){
 function preserveDecimal(n){
   return parseFloat(n);
 }
+
+function inc(n) {
+  var number = 10;
+  return n += 5;
+}
