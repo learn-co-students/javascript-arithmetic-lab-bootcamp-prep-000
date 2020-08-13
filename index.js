@@ -10,11 +10,16 @@ function multiply(a,b) {
 function divide(a,b) {
   return a/b
 }
-function increments(n) {
-  n += 1
+function increment(n) {
+  n += 1 
   return n
 }
-function decrements(n) {
+function decrement(n) {
   n -= 1
   return n
+} function makeInt(n) {
+  return parseInt(n, 10)
+}
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
