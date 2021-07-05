@@ -73,3 +73,8 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+
+
+function add(a,b) {
+  return a + b
+}
