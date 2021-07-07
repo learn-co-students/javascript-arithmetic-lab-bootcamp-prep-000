@@ -1,8 +1,8 @@
 var a, b
 
 beforeEach(function() {
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
+  a = Math.floor(Math.random() * 1000);
+  b = Math.floor(Math.random() * 1000);
 })
 
 describe('basic math functions', function () {
