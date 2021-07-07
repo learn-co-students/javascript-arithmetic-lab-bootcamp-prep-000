@@ -1,3 +1,4 @@
+?>
 # JavaScript Arithmetic Lab
 
 ## Objectives
