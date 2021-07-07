@@ -211,3 +211,4 @@ into a float and return it.
 - [MDN - parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-arithmetic-lab'>JavaScript Arithmetic Lab</a> on Learn.co and start learning to code for free.</p>
+s
