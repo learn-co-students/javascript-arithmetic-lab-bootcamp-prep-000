@@ -1,0 +1,2 @@
+makeInt(n)
+preserveDecimal(n)
