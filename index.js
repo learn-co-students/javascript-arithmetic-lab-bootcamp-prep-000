@@ -1,0 +1,25 @@
+function add(a,b) {
+  return a  + b;
+}
+function subtract(a,b) {
+  return a - b;
+}
+function multiply(a,b) {
+  return a * b;
+}
+function divide(a,b) {
+  return a / b;
+}
+function inc(n) {
+  return ++n;
+}
+function dec(n) {
+  return --n;
+}
+function makeInt(n) { //parses n as an integer and returns the parsed integer
+  return parseInt(n,10)
+}
+function preserveDecimal(n) {//preserves n's decimals
+  return parseFloat(n)
+}
+//returns NaN as appropriate
